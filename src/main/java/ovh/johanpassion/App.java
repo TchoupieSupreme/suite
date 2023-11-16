@@ -35,13 +35,35 @@ public class App {
                 
             }
         }
-    
+        
+        public static void motif3(){
+            String etoile = "*";
+            for (int r =0; r<6;r++){
+                for (int i =0; i<r;i++){
+                    System.out.print(etoile);
+                }
+                System.out.println("");             
+            }
+        }
+        public static void motif4(){
+            for (int r =0; r<6;r++){
+                for (int i =0; i<r;i++){
+                    System.out.print(r);
+                }
+                System.out.println("");             
+            }
+        }
+
+        public static void motif5(){
+            
+        }
         
     }
     public static void main(String[] args) {
         //main.suite1();
         //main.suite2();
-        main.suite3();
+        //main.suite3();
+        main.motif4();
         
     }
     
