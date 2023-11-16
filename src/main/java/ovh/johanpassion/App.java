@@ -16,6 +16,20 @@ public class App {
         }
         }
 
+        public static void louis(){
+        int nbreCarac = 5;
+        while (nbreCarac != 0){
+            int nbre = 1;
+            for (int i = 1 ; i <= nbreCarac;i++){
+                System.out.print(" ");
+            }   
+            nbreCarac = nbreCarac -1;
+            System.out.print(nbre);
+            nbre = nbre + 1;
+            System.out.println();
+        } 
+        }
+
         public static void suite2() {
             int nombreUn = 0;
             int nombreDeux = 1;
@@ -55,16 +69,73 @@ public class App {
         }
 
         public static void motif5(){
+            for (int r =5; r>0;r--){
+                    System.out.print("");
+                for (int i =0; i<r;i++){
+                    System.out.print(" ");             
+                }
+                int e=r;
+                while(e>0){
+                    System.out.print(r);
+                    e--;
+                    
+
+                }
+                System.out.println("");         
+            }
+        }
+        public static void motif7(){
+            for(int e = 0;e<3;e++){
+                for(int i =0;i<10;i++){
+                        int r = 3;
+                        while(r!=0){
+                            System.out.print(i);
+                            r--;
+                        }
+                    System.out.print("");;
+                }
+                System.out.println("");
+            }
+        }
+        public static void motif8(){
+            for(int e = 0;e<3;e++){
+                for(int i =9;i>-1;i--){
+                        int r = 5;
+                        while(r!=0){
+                            System.out.print(i);
+                            r--;
+                        }
+                    System.out.print("");;
+                }
+                System.out.println("");
+            }
+        
+        }
+        public static void motif9(){
+            for(int e = 0;e<3;e++){
+                for(int i =9;i>0;i--){
+                    int r = i;
+                        while(r!=0){
+                            System.out.print(i);
+                            r--;
+                        }
+                    System.out.print("");;
+                }
+                System.out.println("");
+            }
+        }
+        public static void motif10(){
             
         }
+        
         
     }
     public static void main(String[] args) {
         //main.suite1();
         //main.suite2();
         //main.suite3();
-        main.motif4();
-        
+        main.motif9();
+        //main.louis();
     }
     
     
