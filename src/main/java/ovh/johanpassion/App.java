@@ -125,7 +125,10 @@ public class App {
             }
         }
         public static void motif10(){
-            
+            int size = 5;
+            for (int i = 0;i<size;i++){
+                //3 autre for, 1 pour les premiers "-" un pour les chiffres et le dernier pour le reste des "-"
+            }
         }
         
         
